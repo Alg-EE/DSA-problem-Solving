@@ -9,4 +9,4 @@
 
 ## Contributors ✨
 
-  <td align="center"><a href="https://www.rishikeshraj.com"><img src="https://drive.google.com/file/d/1L9qDZmr4hE24fPOPIWoUaz7an13eve1e/view?usp=sharing" width="100px;" alt=""/><br /><sub><b>Rishikesh raj</b></sub></a><br /><a href="#content-ricardoprins" title="Content">🖋</a> <a href="https://github.com/Alg-EE" title="Documentation">📖</a> <a href="https://github.com/Alg-EE" title="Code">💻</a></td>
+  <td align="center"><a href="https://www.rishikeshraj.com"><img src="https://photos.app.goo.gl/dprbkJSB9sLLk1zv7" width="100px;" alt=""/><br /><sub><b>Rishikesh raj</b></sub></a><br /><a href="#content-ricardoprins" title="Content">🖋</a> <a href="https://github.com/Alg-EE" title="Documentation">📖</a> <a href="https://github.com/Alg-EE" title="Code">💻</a></td>
