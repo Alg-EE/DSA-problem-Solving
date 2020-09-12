@@ -7,6 +7,3 @@
 - All PRs must be made from a Branch. Create a separate branch for every Issue you are working upon and once found fit, make a PR.
 
 
-## Contributors ✨
-
-  <td align="center"><a href="https://www.rishikeshraj.com"><img src="https://photos.app.goo.gl/dprbkJSB9sLLk1zv7" width="100px;" alt=""/><br /><sub><b>Rishikesh raj</b></sub></a><br /><a href="#content-ricardoprins" title="Content">🖋</a> <a href="https://github.com/Alg-EE" title="Documentation">📖</a> <a href="https://github.com/Alg-EE" title="Code">💻</a></td>
