@@ -13,22 +13,31 @@ class Node
          left=NULL;right=NULL;
      }
 };
-void Level_traversal(Node *root)
+void search_key(Node *root,int key)
 {
-    queue<Node *>q;
-    q.push(root);
-    while(root!=NULL || q.empty()==false)
-    {
-        root=q.front();
-        cout<<root->data<<" ";
-        if(root->left!=NULL)
-            q.push(root->left);
-        if(root->right!=NULL)
-            q.push(root->right);
+        queue<Node *>q;
+        q.push(root);
+        int flag=0;
+        while((root!=NULL&&flag==0) || (!q.empty()&&flag==0))
+        {
+            root=q.front();
+            if(root->data==key)
+            {
+                flag=1;
+            }
 
-        q.pop();
-    }
+                if(root->left!=NULL)
+                    q.push(root->left);
+                if(root->right!=NULL)
+                    q.push(root->right);
+                     q.pop();
+        }
+        if(flag==1)
+            cout<<"found";
+        else
+            cout<<"Not found";
 }
+
 int main()
 {
     Node *root=new Node(10);
@@ -37,7 +46,10 @@ int main()
     root->right->right->left=new Node(50);
     root->right->right->right=new Node(60);
 
-    Level_traversal(root);
+    int key;
+    cout<<"Enter the number to search :";
+    cin>>key;
+    search_key(root,key);
 
     return 0;
 }
